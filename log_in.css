@@ -1,0 +1,45 @@
+.sp{
+text-align:left;
+}
+.aa{
+    
+    padding: 10px;
+    margin: 10px;
+    color: aqua;
+    background-color: rgb(53, 42, 63);
+    border: solid 2px rgb(11, 17, 53) ;
+    border-radius: 15px;
+}
+body{
+    background-color:rgb(11, 11, 31);
+    color: aqua;
+    text-align: center;
+    font: size 50px color rgb(5, 225, 233) ; 
+}
+button{
+    background-color: rgb(11, 11, 31);
+    color: aqua;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.log{
+    padding: 50px;
+    margin: 30px;
+    background:radial-gradient(circle, rgb(110, 60, 110),rgb(39, 34, 34));
+    border: 10px blue;
+    border-radius: 15px;
+    box-shadow: 0 0 100px rgb(185, 103, 185);
+}
+.frm{
+    padding: 6px;
+    background-color: rgb(252, 234, 248);
+    margin: 15px;
+    border-radius: 5px;
+}
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
